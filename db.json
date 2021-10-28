@@ -1,0 +1,36 @@
+{
+  "anunturi":[
+    {
+      "objectid": "123123",
+      "nume":"AlexAlexAlexAlexAle",
+      "categorie": "Caine",
+      "tipAnunt": "adoptie",
+      "varsta": 10,
+      "gen": false,
+      "rasa": "Doberman",
+      "descriere": "Asta da descriere",
+      "imagini": ["img","img2"],
+      "locatie": "craiova",
+      "caracteristici":{
+        "cuminte": 3,
+        "jucaus": 2
+      }
+    },
+    {
+      "objectid": "123123",
+      "nume":"George",
+      "categorie": "Caine",
+      "tipAnunt": "adoptie",
+      "varsta": 10,
+      "sex": false,
+      "rasa": "Doberman",
+      "descriere": "Asta da descriere",
+      "imagini": ["img","img2"],
+      "locatie": "craiova",
+      "caracteristici":{
+        "cuminte": 3,
+        "jucaus": 2
+      }
+    }
+  ]
+}
