@@ -17,9 +17,24 @@ const AdoptionList = () =>{
         getPosts();
 
     },[])
+
     return(
         <div className="adoption-list">
-            <Pet/>
+            {
+                posts.map(post=>{
+                    return(
+                    <Pet
+                    key = {post.objectid}
+                    name = {post.name}
+                    age = {post.age}
+                    gender = {post.gender}
+                    race = {post.race}
+                    images = {post.images}
+                    location = {post.location}
+                    />
+                    )
+                })
+            }
         </div>
     )
 

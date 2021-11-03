@@ -1,33 +1,33 @@
 {
   "posts":[
     {
-      "objectid": "123123",
-      "nume":"AlexAlexAlexAlexAle",
-      "categorie": "Caine",
-      "tipAnunt": "adoptie",
-      "varsta": 10,
-      "gen": false,
-      "rasa": "Doberman",
-      "descriere": "Asta da descriere",
-      "imagini": ["img","img2"],
-      "locatie": "craiova",
-      "caracteristici":{
+      "objectid": "1",
+      "name":"AlexAlexAlexAlexAle",
+      "category": "Caine",
+      "postType": "adoptie",
+      "age": 10,
+      "gender": false,
+      "race": "Doberman",
+      "description": "Asta da descriere",
+      "images": ["img","img2"],
+      "location": "craiova",
+      "caracteristics":{
         "cuminte": 3,
         "jucaus": 2
       }
     },
     {
-      "objectid": "123123",
-      "nume":"George",
-      "categorie": "Caine",
-      "tipAnunt": "adoptie",
-      "varsta": 10,
-      "sex": false,
-      "rasa": "Doberman",
-      "descriere": "Asta da descriere",
-      "imagini": ["img","img2"],
-      "locatie": "craiova",
-      "caracteristici":{
+      "objectid": "2",
+      "name":"George",
+      "category": "Caine",
+      "postType": "adoptie",
+      "age": 10,
+      "gender": false,
+      "race": "Doberman",
+      "description": "Asta da descriere",
+      "images": ["img","img2"],
+      "location": "craiova",
+      "caracteristics":{
         "cuminte": 3,
         "jucaus": 2
       }
