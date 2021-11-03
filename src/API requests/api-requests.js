@@ -11,6 +11,4 @@ export const fetchPosts = async () => {
     } catch (err) {
         return err;
     }
-
-
 }
