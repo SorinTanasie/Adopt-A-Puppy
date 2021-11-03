@@ -1,10 +1,12 @@
-import '/adoption-list.style.scss';
+import Pet from '../pet/pet';
+
+import '../adoption-list/adoption-list.style.scss'
 
 const AdoptionList = () =>{
 
     return(
-        <div className="list">
-            
+        <div className="adoption-list">
+            <Pet/>
         </div>
     )
 
