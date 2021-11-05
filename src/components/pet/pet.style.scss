@@ -2,12 +2,15 @@
     background-color: white;
     border-radius: 8px;
     padding: 0.5em;
+    margin: 1em auto;
+    word-wrap: break-word;
 
     display: grid;
-    grid-template-columns: 1fr 1fr .3fr;
-    column-gap: 0.5em;
+    grid-template-columns: auto 1fr .3fr;
+    grid-template-rows: repeat(auto,3).4fr;
+    column-gap: 0.8em;
     max-width: 300px;
-    margin: 0 auto;
+    max-height: 200px;
     grid-template-areas: 
         "image name favorite"
         "image race favorite"
@@ -15,18 +18,25 @@
         "image location ."
 }
 
+
+    
 .image{
-    grid-area: image;
-    border-radius: 15px;
+        grid-area: image;
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
 }
+
 
 .pet-name{
     grid-area: name;
-    font-size: 1.5rem;
+    align-self: end;
 }
+
 .race{
     grid-area: race;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    align-self: center;
 }
 
 .favorite{
@@ -36,10 +46,12 @@
 .row{
     grid-area:row;
     color: #cecece;
+    align-self: start;
 }
 
 .location{
-    margin-top: 1.3em;
+    margin-top: 0em;
     grid-area: location;
     color: #cecece;
+    align-self: flex-end;
 }

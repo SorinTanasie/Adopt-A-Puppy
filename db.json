@@ -2,14 +2,14 @@
   "posts":[
     {
       "objectid": "1",
-      "name":"AlexAlexAlexAlexAle",
-      "category": "Caine",
+      "name":"Alex",
+      "category": "cat",
       "postType": "adoptie",
       "age": 10,
       "gender": false,
       "race": "Doberman",
       "description": "Asta da descriere",
-      "images": ["img","img2"],
+      "images": ["https://www.thesprucepets.com/thmb/GLarzZ5ILugQfIv8Epmo9G-6hxY=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/adorable-white-pomeranian-puppy-spitz-921029690-5c8be25d46e0fb000172effe.jpg","img2"],
       "location": "craiova",
       "caracteristics":{
         "cuminte": 3,
@@ -19,13 +19,13 @@
     {
       "objectid": "2",
       "name":"George",
-      "category": "Caine",
+      "category": "dog",
       "postType": "adoptie",
       "age": 10,
       "gender": false,
       "race": "Doberman",
       "description": "Asta da descriere",
-      "images": ["img","img2"],
+      "images": ["https://avatarbox.net/avatars/img35/sad_kitty_avatar_picture_42166.jpg","img2"],
       "location": "craiova",
       "caracteristics":{
         "cuminte": 3,

@@ -1,24 +1,21 @@
 import './pet.style.scss'
 
-const Pet = ({key,name,age,gender,race,images,location}) =>{
+const Pet = ({name,age,gender,race,images,location}) =>{
     
 
     return(
         <div className="container">
-            <div className="image">
-                <img src={images[0]} alt="Poza" />
-            </div>
-
+            <img className="image" src={images[0]} alt="Poza" />
+            
             <i className="favorite"></i>
             <h3 className="pet-name">{name}</h3>
             <p className="race">{race}</p>
-            <div className="row">
-                <p className="text">{gender}, {age}</p>
-            </div>            
+            
+            <p className="row">{gender? "Female" : "Male"}, {age}</p>
+                     
 
-            <div className="location-container">
-                <p className="location">{location}</p>
-            </div>
+            <p className="location">{location}</p>
+            
         </div>
     )
 }
