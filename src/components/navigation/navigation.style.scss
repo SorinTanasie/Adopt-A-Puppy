@@ -1,0 +1,32 @@
+.nav{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+
+    .profile-picture{
+        width: 30px;
+        border-radius: 100%;
+    }
+    .icon{
+        width: 22px;
+        font-size: 2rem;
+    }
+    
+}
+
+.nav-menu{
+    position: fixed;
+    background-color: white;
+    height: 100vh;
+    width: 60vw;
+
+    .menu-list{
+        text-align: center;
+        
+        li{
+            margin: 2em 0;
+            font-size: 15px;
+        }
+    }
+}

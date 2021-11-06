@@ -1,4 +1,4 @@
-import './pet.style.scss'
+import './pet.style.scss';
 
 const Pet = ({name,age,gender,race,images,location}) =>{
     
@@ -6,8 +6,7 @@ const Pet = ({name,age,gender,race,images,location}) =>{
     return(
         <div className="container">
             <img className="image" src={images[0]} alt="Poza" />
-            
-            <i className="favorite"></i>
+            <i class="far fa-heart favorite"></i>
             <h3 className="pet-name">{name}</h3>
             <p className="race">{race}</p>
             
